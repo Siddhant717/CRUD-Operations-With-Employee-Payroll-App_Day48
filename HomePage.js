@@ -214,7 +214,6 @@ const remove = (node) => {
     //document.querySelector(".emp-count").textContent = empPayrollList.length;
     createInnerHtml();
 }
-
 const update = (node) =>{
     let employeePayrollData = empPayrollList.find(empData=> empData._id==node.id)
     if(!empPayrollData) return;
